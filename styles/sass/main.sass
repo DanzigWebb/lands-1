@@ -1,0 +1,245 @@
+@import "vars"
+@import "most"
+@import "offer"
+
+.main
+  padding-top: 0
+.main__top
+  text-align: center
+  display: block
+  padding: .1rem 0
+.main-bg
+  position: relative
+  &__img
+    width: 100%
+.main__product
+  position: absolute
+  top: 0
+  right: 0
+  z-index: 1
+  img
+    width: 2.7rem
+.main__price
+  position: absolute
+  top: 0.2rem
+  right: 0.2rem
+  width: 1.5rem
+  height: 1.5rem
+  display: flex
+  align-items: center
+  justify-content: center
+  background: $accent
+  border-radius: 50%
+  z-index: -1
+  span
+    font-size: 0.4rem
+    font-weight: bold
+    color: #fff
+
+.main-price
+  display: flex
+  justify-content: space-evenly
+  padding: .2rem
+  &__item
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    font-size: .24rem
+    padding: 0 .2rem
+    height: 1.08rem
+    s
+      font-weight: bold
+      font-size: 0.48rem
+      color: #BCBCBC
+    b
+      font-size: 0.48rem
+      color: #FC4B37
+    &--after
+      border: solid .02rem #FF9B53
+      border-radius: 0.1rem
+
+.main-builets
+  padding: 0 .2rem
+  &__top
+    font-weight: 200
+    strong
+      font-weight: 400
+
+.main-builets__list
+  margin: 0
+  padding: .15rem 0
+.main-builets__item
+  list-style: none
+  margin-bottom: 0.2rem
+  display: flex
+  align-items: center
+  font-size: 0.24rem
+  font-weight: normal
+  color: #000
+  img
+    margin-right: 0.2rem
+    width: 0.73rem
+    height: 0.73rem
+// bottom
+
+.adress
+  text-align: center
+.policy
+  margin-bottom: .30rem
+
+
+section.grey
+  background: $grey
+  position: relative
+  margin: .28rem 0
+.block2-content
+  padding: .2rem
+
+.block2-item
+  height: 1.45rem
+  display: flex
+  margin: .2rem 0
+  position: relative
+  &__img
+    position: absolute
+    left: 0
+    top: 0
+    bottom: 0
+    width: 1.75rem
+    img
+      width: 100%
+.block2-item__txt
+  width: 3.2rem
+  z-index: 1
+  background-color: #fff
+  margin-left: auto
+  padding: .15rem
+  position: relative
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1)
+  border-radius: 0.1rem
+  display: flex
+  align-items: center
+  b
+    font-weight: 500
+  span
+    display: block
+    font-size: 0.18rem
+  .icon
+    margin-right: 0.15rem
+
+.block3
+  background-color: $grey
+.block3-content
+  margin: .3rem 0
+.block3-item
+  h4
+    text-align: center
+    font-size: 0.22rem
+    margin: .4rem 0
+      bottom: .2rem
+  p
+    padding: 0 .2rem
+      top: 0
+    margin-top: 0
+    font-size: 0.22rem
+  b
+    font-weight: 500
+  img
+    width: 4rem
+
+
+.sect4__about
+  font-weight: 400
+  margin-top: 0.4rem
+.block4-content
+  padding: .2rem
+.block4-item
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 0.4rem
+  &:nth-child(even)
+    flex-direction: row-reverse
+  .img-wrap
+    width: 1.8rem
+    img
+      width: 100%
+  p
+    width: 2.2rem
+    font-weight: 400
+    font-size: 0.22rem
+    span
+      position: relative
+      &:before
+        content: ''
+        position: absolute
+        left: -0.04rem
+        right: -0.04rem
+        bottom: 0
+        top: 0.14rem
+        background-color: $accent
+        z-index: -1
+
+.block5
+  padding-bottom: 0
+.block5-reviews
+  padding: .4rem .2rem
+    bottom: 0.2rem
+.reviews-item
+  padding: .2rem
+  background: #fff
+  color: #333
+  font-family: 'Roboto', sans-serif
+  font-size: 0.19rem
+  outline: none
+  img
+    max-width: 100%
+    display: inline-block !important
+.reviews__top
+  display: flex
+  align-items: center
+  margin-bottom: .2rem
+  font-size: 0.19rem
+  font-weight: bold
+  img
+    margin-right: 0.1rem
+.reviews__soc
+  margin-top: 0.2rem
+  margin-bottom: 0.2rem
+.reviews__liked
+  letter-spacing: 0.04em
+  color: #000
+  line-height: 0.23rem
+  display: flex
+  align-items: center
+  img
+    margin-right: 0.1rem
+    display: inline-block !important
+    line-height: 0.23rem
+.reviews__content
+  letter-spacing: 0.04em
+  color: #333
+  line-height: 0.22rem
+
+.block6
+  margin-bottom: 0
+  padding-bottom: 0
+.block6-content
+  padding: .4rem .2rem
+    bottom: 0
+
+.block6-item
+  display: flex
+  align-items: center
+  justify-content: flex-start
+  font-weight: 400
+  font-size: 0.22rem
+  margin-bottom: 0.4rem
+  img
+    width: 1.55rem
+    margin-right: 0.22rem
+
+footer.main
+  padding-top: 0
+@import "media"
