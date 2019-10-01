@@ -11,7 +11,10 @@ $('.block5-reviews').slick({
 	infinite: true,
 	speed: 300,
 	slidesToShow: 1,
-	arrows: false,
+	arrows: true,
+	prevArrow: '<button type="button" class="slick-navigation prev"><img src="img/prev.svg"></button>',
+	nextArrow: '<button type="button" class="slick-navigation next"><img src="img/next.svg"></button>',
+
 	// autoplay: true,
 	adaptiveHeight: true,
 	autoplaySpeed: 4000,
